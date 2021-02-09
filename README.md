@@ -1,8 +1,8 @@
 # Minimum_Integer_Weights
 Calculate minimum integer weights, a measure of pivotality for bargaining / coalition games
 
-Email: de Marchi, Scott (demarchi@duke.edu)
-Cite: de Marchi, Scott. "Minimum Integer Weight Calculator". https://github.com/stormslayer/Minimum_Integer_Weights. 2021.
+Email: de Marchi, Scott (demarchi@duke.edu)  
+Cite: de Marchi, Scott. "Minimum Integer Weight Calculator". https://github.com/stormslayer/Minimum_Integer_Weights. 2021.  
 
 # To use:
 * install Anaconda (3.x): https://www.anaconda.com/products/individual

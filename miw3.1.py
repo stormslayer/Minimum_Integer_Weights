@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# de Marchi, Scott (demarchi@duke.edu)
+# cite: de Marchi, Scott. "Minimum Integer Weight Calculator". https://github.com/stormslayer/Minimum_Integer_Weights. 2021.
+
 #!/usr/bin/env python
 import numpy
 import math
@@ -47,8 +50,8 @@ tie_list=[]
 #establish losing list
 loss_list=[]
 
-#define recursive coalition combinatorics generator
-#note this finds ALL coalitions, not just MWC's or min. weight coal.'s
+# define recursive coalition combinatorics generator
+# note this finds ALL coalitions, not just MWC's or min. weight coal.'s
 def combo(tcoal, tlim, n, L1, tl):
     # tcoal is coalition list, tlim is # of parties in coal, n is starting party
     # and L1 is list of coalitions used to fill dictionary coal_list
@@ -75,17 +78,13 @@ def combo(tcoal, tlim, n, L1, tl):
         tl.pop() 
     return 0
 
-
-#print "# Parties / Total Votes / Total votes needed for coalition: ",T," / ",E," / ",u
-
 #L is temp list for coalition calculator combo
 L=[]
 #temp_list is to record variable places for repeat coalitions for pulp
 temp_list=[]
 
 for i in range(1,T):
-    combo(coal,i,0,L, temp_list)
-        
+    combo(coal,i,0,L, temp_list)      
 
 print("Pulp List")
 print(pulp_list)
@@ -127,7 +126,7 @@ print("MWC: ")
 print(MWC)
 print() 
 
-#this is a kludge; there must be a better way
+# this is a kludge; there must be a better way
 # assign ordinal ranks to the different parties for use later by pulp
 rank=[]
 for i in range(0, T):
@@ -156,15 +155,7 @@ print("rank: ", rank)
 print()
 
 
-
 tkeys=MWC.keys()
-#organize MWC's by party
-#for i in range(0,T):
-#    print "Player ", i+1, "'s coalitions:"
-#    for j in range(0, len(tkeys)):
-#        if coal[i] in tkeys[j]: print "Coalition: ",tkeys[j]," / Size: ",MWC[tkeys[j]]
-#    print
-
 
 num_coals=len(MWC)
 #print "Number of distinct coalitions: ", num_coals

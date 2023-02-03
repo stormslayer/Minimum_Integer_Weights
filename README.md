@@ -9,4 +9,5 @@ Cite: de Marchi, Scott. "Pivotality Measures". https://github.com/stormslayer/Mi
 * install pulp: https://pypi.org/project/PuLP/
 * Legacy code miw3.1.py: input list (line 16) or edit miw3.1.py (line 17) -- code expects a list of raw seats in a legislature.  Entering a system with a majority party will cause unexpected results.
 * Current code shapley_plus_individualweights_1.4: edit list of datafiles in model_params_measures_example.xlsx and change name to model_params_measures.xlsx.  Outputs to a flat file. 
+* For more information, see:https://www.journals.uchicago.edu/doi/abs/10.1086/706462 and https://www.cambridge.org/core/books/governance-cycle-in-parliamentary-democracies/A2FDF6AEE7F9C5E9C67B43E7333E5BF1
 

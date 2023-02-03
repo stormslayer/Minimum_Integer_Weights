@@ -1,5 +1,5 @@
-# Minimum_Integer_Weights
-Calculate minimum integer weights, a measure of pivotality for bargaining / coalition games
+# Pivotality Measures
+Calculate Shapley, Banzhaf, minimum integer weights, and other pivotality measures for bargaining / coalition games
 
 Email: de Marchi, Scott (scott.demarchi@gmail.com)  
 Cite: de Marchi, Scott. "Pivotality Measures". https://github.com/stormslayer/Minimum_Integer_Weights. 2023.  

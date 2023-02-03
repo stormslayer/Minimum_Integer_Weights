@@ -2,7 +2,7 @@
 Calculate Shapley, Banzhaf, minimum integer weights, and other pivotality measures for bargaining / coalition games
 
 Email: de Marchi, Scott (scott.demarchi@gmail.com)  
-Cite: de Marchi, Scott. "Pivotality Measures". https://github.com/stormslayer/Minimum_Integer_Weights. 2023.  
+Cite: de Marchi, Scott, Max Gallop, and Michael Laver. "Pivotality Measures". https://github.com/stormslayer/Minimum_Integer_Weights. 2023.  
 
 # To use:
 * install Anaconda (3.x): https://www.anaconda.com/products/individual
